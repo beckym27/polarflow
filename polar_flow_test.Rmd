@@ -1,0 +1,14 @@
+---
+title: "Polar Data"
+author: "Becky Maher"
+date: "13/02/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+polar_flow_test <- read.csv("/users/beckymaher/desktop/Graduate degree/beap_lab/fertility/Daniel_Fuller_2020-02-13_18-38-17.csv")
+```
